@@ -26,5 +26,7 @@ We see some over-fitting
 
 **Receptive field Calcualtion**
 
-![image](https://user-images.githubusercontent.com/52197131/213808494-9ed0652e-3762-49d1-9ae7-cb29a86604b4.png)
+
+![image](https://user-images.githubusercontent.com/52197131/213809883-2872d750-51b1-4607-b348-72afbfa471b5.png)
+
 
