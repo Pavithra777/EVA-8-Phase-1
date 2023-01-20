@@ -10,7 +10,7 @@ Bringing the parameter to target value
 **Results:**
 
 
-Parameters: 7,848 parameters
+Parameters: 7,948 parameters
 
 Best Train Accuracy: 99.14
 
