@@ -25,19 +25,19 @@ To bring all the kernel value within a similar scale , we are doing Normalizatio
 
 ![Normalization](https://user-images.githubusercontent.com/52197131/215227352-4e8d167a-e204-4303-913a-f47cee2e3a6c.png)
 
-**Batch Normalization : **
+**Batch Normalization**
 
 A specfic channel is taken from each batch and then normalise. Say taking all the vertical edge channel from each batch.
 
 In the image for Batch Normalization, the batch size is 3 and every third channel from each batch is taken. There will be 1 µ (mean) and 1 σ (SD).
 
-**Layer Normalization **
+**Layer Normalization**
 
 All the channel from the batch is taken.
 
 In the image for Layer Normalization, for 1 batch there will be 1 µ and 1 SD.
 
-**Group Normalization **
+**Group Normalization**
 
 Each batch is seperated into number of groups.
 
