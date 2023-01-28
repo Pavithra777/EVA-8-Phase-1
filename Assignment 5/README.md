@@ -12,13 +12,14 @@ model.py has the Network class which accepts parameter normalization_type that c
 
 
 **Normalization**
+
 Different features will be at different scale. One feature amplitude might be large like truck wheel and another feature amplitude like cycle wheel might be small.
-To bring all the kernel value within a similar scale. So the distance need to be travelled by the kernel value of all the feature are similar.
+To bring all the kernel value within a similar scale , we are doing Normalization. So the distance need to be travelled by the kernel value of all the features are similar.
 
 **How To Normalise ?**
 
-1. Using mean of all kernel value, the data is shifted towards zero by subtracting mean value with the kernel's value 
-2. With the standard deviation , the data is scaled within a range by dividing the zero centered data  by SD.
+1. Using mean of all kernel value, the data is shifted towards zero by subtracting  kernel's value with the mean value. 
+2. With the standard deviation of all kernel value , the data is scaled within a range by dividing the zero centered data  by SD.
 
 **Types of Normalization**
 
