@@ -43,7 +43,30 @@ Each batch is seperated into number of groups.
 
 In the image for Group Normalization for 1 batch and 3 group, we will have 3 µ and 3 σ.
 
-![image](https://user-images.githubusercontent.com/52197131/215230491-19d786a9-dfce-456f-9ec7-ec1ba64f5a2d.png)
+
+**Test/Validation Loss for all 3 models**
+
+![image](https://user-images.githubusercontent.com/52197131/215230890-eeb2e93f-ee5c-4833-a31d-8e7b63c0ca0a.png)
+
+
+**Test/Validation Accuracy for all 3 models**
+
+![image](https://user-images.githubusercontent.com/52197131/215231169-e5665f53-d502-42c3-aa1c-501ea08f8973.png)
+
+
+
+**10 misclassified images for each of the GN models**
+![image](https://user-images.githubusercontent.com/52197131/215231811-128a2c6b-0acc-488a-911b-2a8e17d4950e.png)
+
+**10 misclassified images for each of the LN models**
+![image](https://user-images.githubusercontent.com/52197131/215231856-cf803eb9-e44e-4454-8d77-6d08cc622b1c.png)
+
+
+**10 misclassified images for each of the LN models**
+![image](https://user-images.githubusercontent.com/52197131/215231875-d36a950c-e745-4868-8689-44023afee2fb.png)
+
+
+
 
 
 
