@@ -43,4 +43,8 @@ Each batch is seperated into number of groups.
 
 In the image for Group Normalization for 1 batch and 3 group, we will have 3 µ and 3 σ.
 
+![image](https://user-images.githubusercontent.com/52197131/215230491-19d786a9-dfce-456f-9ec7-ec1ba64f5a2d.png)
+
+
+
 
