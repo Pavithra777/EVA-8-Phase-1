@@ -62,7 +62,7 @@ In the image for Group Normalization for 1 batch and 3 group, we will have 3 µ 
 ![image](https://user-images.githubusercontent.com/52197131/215231856-cf803eb9-e44e-4454-8d77-6d08cc622b1c.png)
 
 
-**10 misclassified images for each of the LN models**
+**10 misclassified images for each of the BN models**
 ![image](https://user-images.githubusercontent.com/52197131/215231875-d36a950c-e745-4868-8689-44023afee2fb.png)
 
 
