@@ -9,16 +9,22 @@ Grad-CAM is a deep learning technique used to understand and visualize the regio
 
 **MAIN repo**
 
+https://github.com/Pavithra777/EVA-8-Phase-1/tree/main/Assignment%207
+
 **model.py**
+
 https://github.com/Pavithra777/Pavithra/blob/main/models/resnet.py
 
 **utils.py**
+
 https://github.com/Pavithra777/Pavithra/blob/main/utils.py
 
 **main.py**
+
 https://github.com/Pavithra777/Pavithra/blob/main/main.py
 
 **Training Log**
+
 
 EPOCH: 6
 Loss=-41266.46875 Batch_id=781 Accuracy=12.79: 100%|██████████| 782/782 [00:52<00:00, 15.00it/s]
