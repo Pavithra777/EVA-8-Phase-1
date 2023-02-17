@@ -1,3 +1,31 @@
+**Custom ResNet architecture for CIFAR10**
+
+1. PrepLayer - Conv 3x3 s1, p1) >> BN >> RELU [64k]
+2.Layer1 -
+	1. X = Conv 3x3 (s1, p1) >> MaxPool2D >> BN >> RELU [128k]
+	2. R1 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [128k] 
+	3. Add(X, R1)
+3.Layer 2 -
+	1. Conv 3x3 [256k]
+	2. MaxPooling2D
+	3. BN
+	4. ReLU
+4.Layer 3 -
+	1.	X = Conv 3x3 (s1, p1) >> MaxPool2D >> BN >> RELU [512k]
+	2. R2 = ResBlock( (Conv-BN-ReLU-Conv-BN-ReLU))(X) [512k]
+	3. Add(X, R2)
+5.MaxPooling with Kernel Size 4
+6.FC Layer 
+7.SoftMax
+
+**RECEPTIVE FIELD**
+
+Here RF is more than the size of the image.
+
+A large RF can hold different size and variants as a template
+
+![image](https://user-images.githubusercontent.com/52197131/219817397-d423cf01-8505-4f29-b56f-a22994d312b3.png)
+
 
 **ORIGINAL IMAGE**
 
@@ -26,7 +54,7 @@ num_iterations = ceil(60000 / 512) = 118
 
 
 
-**One Cycle Policy Scheduler**
+**ONE CYCLE POLICY SCHEDULER**
   
   1. Total epoch is 24
   2. The learning rate is increased linearly from LRMIN to LRMAX during the first 5 epochs.
@@ -42,9 +70,7 @@ num_iterations = ceil(60000 / 512) = 118
 
 
 EPOCH: 1
-  0%|          | 0/98 [00:00<?, ?it/s]/usr/local/lib/python3.8/dist-packages/torch/optim/lr_scheduler.py:138: UserWarning: Detected call of `lr_scheduler.step()` before `optimizer.step()`. In PyTorch 1.1.0 and later, you should call them in the opposite order: `optimizer.step()` before `lr_scheduler.step()`.  Failure to do this will result in PyTorch skipping the first value of the learning rate schedule. See more details at https://pytorch.org/docs/stable/optim.html#how-to-adjust-learning-rate
-  warnings.warn("Detected call of `lr_scheduler.step()` before `optimizer.step()`. "
-Batch_id=97 Loss=1.67779 Accuracy=40.25: 100%|██████████| 98/98 [00:33<00:00,  2.94it/s]
+ Batch_id=97 Loss=1.67779 Accuracy=40.25: 100%|██████████| 98/98 [00:33<00:00,  2.94it/s]
 
  Test set : Average loss: 1.3524, Accuracy: 5137/10000 (51.37%)
 
