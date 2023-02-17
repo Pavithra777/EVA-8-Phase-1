@@ -3,13 +3,14 @@
 ![image](https://user-images.githubusercontent.com/52197131/219818005-1473231b-0651-4f33-bf78-59a13e0b985f.png)
 
 
-**RECEPTIVE FIELD**
+**RECEPTIVE FIELD CALCULATION**
+
+
+![image](https://user-images.githubusercontent.com/52197131/219817397-d423cf01-8505-4f29-b56f-a22994d312b3.png)
 
 Here RF is more than the size of the image.
 
 A large RF can hold different size and variants as a template
-
-![image](https://user-images.githubusercontent.com/52197131/219817397-d423cf01-8505-4f29-b56f-a22994d312b3.png)
 
 
 **ORIGINAL IMAGE**
@@ -26,7 +27,7 @@ A large RF can hold different size and variants as a template
 
 **LR FINDER**
 
-num_iterations = ceil(60000 / 512) = 118
+**num_iterations = ceil(60000 / 512) = 118**
 
 ![image](https://user-images.githubusercontent.com/52197131/219814572-c57b3dc1-e934-44fe-8b39-efa82828cba7.png)
 
