@@ -11,6 +11,9 @@
 
 
 **TRAINING LOG**
+
+
+
 EPOCH: 1
 Batch_id=97 Loss=1.67342 Accuracy=40.02: 100%|██████████| 98/98 [00:30<00:00,  3.17it/s]
 
