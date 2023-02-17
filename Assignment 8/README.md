@@ -1,4 +1,9 @@
 
+**ORIGINAL IMAGE**
+
+![image](https://user-images.githubusercontent.com/52197131/219788572-1ff666dd-f3f5-4dca-b3f2-c35bf9c6f0ca.png)
+
+
 **AUGMENTED IMAGE**
 
 ![image](https://user-images.githubusercontent.com/52197131/219641403-47e9f844-78e0-4b36-acc4-bdeb9b0c4501.png)
