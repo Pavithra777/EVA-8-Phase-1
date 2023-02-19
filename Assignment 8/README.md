@@ -26,6 +26,8 @@ A large RF can hold different size and variants as a template
 
 
 **LR FINDER**
+Number of images = 60000
+Batch size = 512
 
 **num_iterations = ceil(60000 / 512) = 118**
 
