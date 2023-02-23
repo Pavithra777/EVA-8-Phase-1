@@ -39,9 +39,6 @@ Batch size = 512
 ![image](https://user-images.githubusercontent.com/52197131/219640252-9b7beb33-fa6c-4463-8f6f-0d09b7a6c3a3.png)
 
 
-**Selected LR = ler_rate = 0.0035237780584504125** 
-
-
 
 
 **ONE CYCLE POLICY SCHEDULER**
