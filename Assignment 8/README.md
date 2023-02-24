@@ -48,6 +48,8 @@ Batch size = 512
   3. The learning rate is decreased linearly from LRMAX to LRMIN during the remaining 19 epochs.
   4. pct_start to the fraction of steps for the increasing phase (5/24 in this case)
 
+![image](https://user-images.githubusercontent.com/52197131/219814459-d2067978-ad2b-4986-9ab1-e8018d1f47c8.png)
+
 ![image](https://user-images.githubusercontent.com/52197131/221265541-3a28991d-1602-4900-b4b3-c108a74bc593.png)
 
 
