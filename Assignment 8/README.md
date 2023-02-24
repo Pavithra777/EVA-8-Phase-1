@@ -48,131 +48,132 @@ Batch size = 512
   3. The learning rate is decreased linearly from LRMAX to LRMIN during the remaining 19 epochs.
   4. pct_start to the fraction of steps for the increasing phase (5/24 in this case)
 
-![image](https://user-images.githubusercontent.com/52197131/219814459-d2067978-ad2b-4986-9ab1-e8018d1f47c8.png)
+![image](https://user-images.githubusercontent.com/52197131/221265541-3a28991d-1602-4900-b4b3-c108a74bc593.png)
+
 
 
 
 **TRAINING LOG**
 
 EPOCH: 1
-Batch_id=97 Loss=1.69889 Accuracy=38.97: 100%|██████████| 98/98 [00:25<00:00,  3.89it/s]
+Batch_id=97 Loss=1.70769 Accuracy=38.41: 100%|██████████| 98/98 [00:25<00:00,  3.84it/s]
 
- Test set : Average loss: 1.3660, Accuracy: 5060/10000 (50.60%)
+ Test set : Average loss: 1.3596, Accuracy: 5059/10000 (50.59%)
 
 EPOCH: 2
-Batch_id=97 Loss=1.28067 Accuracy=53.91: 100%|██████████| 98/98 [00:25<00:00,  3.87it/s]
+Batch_id=97 Loss=1.27974 Accuracy=54.13: 100%|██████████| 98/98 [00:25<00:00,  3.79it/s]
 
- Test set : Average loss: 1.1545, Accuracy: 5868/10000 (58.68%)
+ Test set : Average loss: 1.1787, Accuracy: 5832/10000 (58.32%)
 
 EPOCH: 3
-Batch_id=97 Loss=1.12300 Accuracy=60.13: 100%|██████████| 98/98 [00:25<00:00,  3.85it/s]
+Batch_id=97 Loss=1.11969 Accuracy=60.21: 100%|██████████| 98/98 [00:25<00:00,  3.85it/s]
 
- Test set : Average loss: 1.0312, Accuracy: 6311/10000 (63.11%)
+ Test set : Average loss: 1.0611, Accuracy: 6258/10000 (62.58%)
 
 EPOCH: 4
-Batch_id=97 Loss=1.01012 Accuracy=64.29: 100%|██████████| 98/98 [00:25<00:00,  3.81it/s]
+Batch_id=97 Loss=1.00911 Accuracy=64.37: 100%|██████████| 98/98 [00:25<00:00,  3.84it/s]
 
- Test set : Average loss: 0.9953, Accuracy: 6489/10000 (64.89%)
+ Test set : Average loss: 0.9487, Accuracy: 6635/10000 (66.35%)
 
 EPOCH: 5
-Batch_id=97 Loss=0.92657 Accuracy=67.37: 100%|██████████| 98/98 [00:25<00:00,  3.77it/s]
+Batch_id=97 Loss=0.92347 Accuracy=67.59: 100%|██████████| 98/98 [00:25<00:00,  3.82it/s]
 
- Test set : Average loss: 0.8777, Accuracy: 6868/10000 (68.68%)
+ Test set : Average loss: 0.9181, Accuracy: 6789/10000 (67.89%)
 
 EPOCH: 6
-Batch_id=97 Loss=0.85843 Accuracy=70.01: 100%|██████████| 98/98 [00:25<00:00,  3.82it/s]
+Batch_id=97 Loss=0.85339 Accuracy=70.03: 100%|██████████| 98/98 [00:25<00:00,  3.84it/s]
 
- Test set : Average loss: 0.8225, Accuracy: 7138/10000 (71.38%)
+ Test set : Average loss: 0.8364, Accuracy: 7056/10000 (70.56%)
 
 EPOCH: 7
-Batch_id=97 Loss=0.80088 Accuracy=71.83: 100%|██████████| 98/98 [00:25<00:00,  3.79it/s]
+Batch_id=97 Loss=0.80574 Accuracy=71.54: 100%|██████████| 98/98 [00:25<00:00,  3.85it/s]
 
- Test set : Average loss: 0.7958, Accuracy: 7199/10000 (71.99%)
+ Test set : Average loss: 0.7891, Accuracy: 7254/10000 (72.54%)
 
 EPOCH: 8
-Batch_id=97 Loss=0.75377 Accuracy=73.68: 100%|██████████| 98/98 [00:25<00:00,  3.82it/s]
+Batch_id=97 Loss=0.76008 Accuracy=73.52: 100%|██████████| 98/98 [00:25<00:00,  3.84it/s]
 
- Test set : Average loss: 0.7753, Accuracy: 7322/10000 (73.22%)
+ Test set : Average loss: 0.7367, Accuracy: 7426/10000 (74.26%)
 
 EPOCH: 9
-Batch_id=97 Loss=0.71563 Accuracy=74.95: 100%|██████████| 98/98 [00:25<00:00,  3.81it/s]
+Batch_id=97 Loss=0.71154 Accuracy=75.23: 100%|██████████| 98/98 [00:25<00:00,  3.84it/s]
 
- Test set : Average loss: 0.7999, Accuracy: 7202/10000 (72.02%)
+ Test set : Average loss: 0.7690, Accuracy: 7351/10000 (73.51%)
 
 EPOCH: 10
-Batch_id=97 Loss=0.67523 Accuracy=76.44: 100%|██████████| 98/98 [00:25<00:00,  3.84it/s]
+Batch_id=97 Loss=0.67341 Accuracy=76.53: 100%|██████████| 98/98 [00:25<00:00,  3.83it/s]
 
- Test set : Average loss: 0.7088, Accuracy: 7530/10000 (75.30%)
+ Test set : Average loss: 0.6894, Accuracy: 7617/10000 (76.17%)
 
 EPOCH: 11
-Batch_id=97 Loss=0.64478 Accuracy=77.44: 100%|██████████| 98/98 [00:25<00:00,  3.82it/s]
+Batch_id=97 Loss=0.64597 Accuracy=77.33: 100%|██████████| 98/98 [00:25<00:00,  3.85it/s]
 
- Test set : Average loss: 0.6602, Accuracy: 7726/10000 (77.26%)
+ Test set : Average loss: 0.6843, Accuracy: 7650/10000 (76.50%)
 
 EPOCH: 12
-Batch_id=97 Loss=0.61707 Accuracy=78.38: 100%|██████████| 98/98 [00:25<00:00,  3.86it/s]
+Batch_id=97 Loss=0.61245 Accuracy=78.79: 100%|██████████| 98/98 [00:25<00:00,  3.86it/s]
 
- Test set : Average loss: 0.6783, Accuracy: 7700/10000 (77.00%)
+ Test set : Average loss: 0.6483, Accuracy: 7791/10000 (77.91%)
 
 EPOCH: 13
-Batch_id=97 Loss=0.59122 Accuracy=79.54: 100%|██████████| 98/98 [00:26<00:00,  3.75it/s]
+Batch_id=97 Loss=0.58854 Accuracy=79.66: 100%|██████████| 98/98 [00:25<00:00,  3.83it/s]
 
- Test set : Average loss: 0.6426, Accuracy: 7852/10000 (78.52%)
+ Test set : Average loss: 0.6239, Accuracy: 7863/10000 (78.63%)
 
 EPOCH: 14
-Batch_id=97 Loss=0.56564 Accuracy=80.31: 100%|██████████| 98/98 [00:25<00:00,  3.83it/s]
+Batch_id=97 Loss=0.56631 Accuracy=80.30: 100%|██████████| 98/98 [00:25<00:00,  3.84it/s]
 
- Test set : Average loss: 0.6153, Accuracy: 7891/10000 (78.91%)
+ Test set : Average loss: 0.6285, Accuracy: 7802/10000 (78.02%)
 
 EPOCH: 15
-Batch_id=97 Loss=0.53801 Accuracy=81.15: 100%|██████████| 98/98 [00:25<00:00,  3.83it/s]
+Batch_id=97 Loss=0.54459 Accuracy=80.97: 100%|██████████| 98/98 [00:25<00:00,  3.88it/s]
 
- Test set : Average loss: 0.6090, Accuracy: 7881/10000 (78.81%)
+ Test set : Average loss: 0.6298, Accuracy: 7889/10000 (78.89%)
 
 EPOCH: 16
-Batch_id=97 Loss=0.51893 Accuracy=81.83: 100%|██████████| 98/98 [00:25<00:00,  3.79it/s]
+Batch_id=97 Loss=0.52151 Accuracy=81.87: 100%|██████████| 98/98 [00:25<00:00,  3.83it/s]
 
- Test set : Average loss: 0.6093, Accuracy: 7941/10000 (79.41%)
+ Test set : Average loss: 0.6073, Accuracy: 7946/10000 (79.46%)
 
 EPOCH: 17
-Batch_id=97 Loss=0.50245 Accuracy=82.54: 100%|██████████| 98/98 [00:25<00:00,  3.84it/s]
+Batch_id=97 Loss=0.50432 Accuracy=82.58: 100%|██████████| 98/98 [00:25<00:00,  3.84it/s]
 
- Test set : Average loss: 0.6125, Accuracy: 7949/10000 (79.49%)
+ Test set : Average loss: 0.5729, Accuracy: 8105/10000 (81.05%)
 
 EPOCH: 18
-Batch_id=97 Loss=0.48797 Accuracy=83.04: 100%|██████████| 98/98 [00:25<00:00,  3.81it/s]
+Batch_id=97 Loss=0.48069 Accuracy=83.30: 100%|██████████| 98/98 [00:25<00:00,  3.84it/s]
 
- Test set : Average loss: 0.5625, Accuracy: 8094/10000 (80.94%)
+ Test set : Average loss: 0.5533, Accuracy: 8096/10000 (80.96%)
 
 EPOCH: 19
-Batch_id=97 Loss=0.46595 Accuracy=83.88: 100%|██████████| 98/98 [00:25<00:00,  3.83it/s]
+Batch_id=97 Loss=0.46570 Accuracy=83.81: 100%|██████████| 98/98 [00:25<00:00,  3.83it/s]
 
- Test set : Average loss: 0.5701, Accuracy: 8082/10000 (80.82%)
+ Test set : Average loss: 0.5515, Accuracy: 8151/10000 (81.51%)
 
 EPOCH: 20
-Batch_id=97 Loss=0.45304 Accuracy=84.42: 100%|██████████| 98/98 [00:25<00:00,  3.82it/s]
+Batch_id=97 Loss=0.45026 Accuracy=84.55: 100%|██████████| 98/98 [00:25<00:00,  3.86it/s]
 
- Test set : Average loss: 0.5536, Accuracy: 8115/10000 (81.15%)
+ Test set : Average loss: 0.5519, Accuracy: 8159/10000 (81.59%)
 
 EPOCH: 21
-Batch_id=97 Loss=0.43600 Accuracy=84.72: 100%|██████████| 98/98 [00:26<00:00,  3.76it/s]
+Batch_id=97 Loss=0.43350 Accuracy=85.04: 100%|██████████| 98/98 [00:25<00:00,  3.82it/s]
 
- Test set : Average loss: 0.5191, Accuracy: 8222/10000 (82.22%)
+ Test set : Average loss: 0.5602, Accuracy: 8103/10000 (81.03%)
 
 EPOCH: 22
-Batch_id=97 Loss=0.42278 Accuracy=85.37: 100%|██████████| 98/98 [00:25<00:00,  3.83it/s]
+Batch_id=97 Loss=0.42451 Accuracy=85.21: 100%|██████████| 98/98 [00:25<00:00,  3.84it/s]
 
- Test set : Average loss: 0.5190, Accuracy: 8217/10000 (82.17%)
+ Test set : Average loss: 0.5493, Accuracy: 8134/10000 (81.34%)
 
 EPOCH: 23
-Batch_id=97 Loss=0.40519 Accuracy=85.99: 100%|██████████| 98/98 [00:25<00:00,  3.83it/s]
+Batch_id=97 Loss=0.40864 Accuracy=85.94: 100%|██████████| 98/98 [00:25<00:00,  3.84it/s]
 
- Test set : Average loss: 0.5253, Accuracy: 8197/10000 (81.97%)
+ Test set : Average loss: 0.5270, Accuracy: 8238/10000 (82.38%)
 
 EPOCH: 24
-Batch_id=97 Loss=0.39167 Accuracy=86.49: 100%|██████████| 98/98 [00:25<00:00,  3.84it/s]
+Batch_id=97 Loss=0.38941 Accuracy=86.54: 100%|██████████| 98/98 [00:25<00:00,  3.83it/s]
 
- Test set : Average loss: 0.5059, Accuracy: 8327/10000 (83.27%)
+ Test set : Average loss: 0.5196, Accuracy: 8280/10000 (82.80%)
  
  
  **Accuracy and Loss**
