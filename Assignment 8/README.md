@@ -36,7 +36,7 @@ Batch size = 512
 ![image](https://user-images.githubusercontent.com/52197131/219814572-c57b3dc1-e934-44fe-8b39-efa82828cba7.png)
 
 
-![image](https://user-images.githubusercontent.com/52197131/219640252-9b7beb33-fa6c-4463-8f6f-0d09b7a6c3a3.png)
+![image](https://user-images.githubusercontent.com/52197131/221265541-3a28991d-1602-4900-b4b3-c108a74bc593.png)
 
 
 
@@ -50,7 +50,7 @@ Batch size = 512
 
 ![image](https://user-images.githubusercontent.com/52197131/219814459-d2067978-ad2b-4986-9ab1-e8018d1f47c8.png)
 
-![image](https://user-images.githubusercontent.com/52197131/221265541-3a28991d-1602-4900-b4b3-c108a74bc593.png)
+
 
 
 
