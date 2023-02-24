@@ -180,7 +180,8 @@ Batch_id=97 Loss=0.38941 Accuracy=86.54: 100%|██████████| 98
  
  **Accuracy and Loss**
  
- ![image](https://user-images.githubusercontent.com/52197131/219813542-83bdc314-1792-4a82-b12f-c1c20aee8f1e.png)
+ ![image](https://user-images.githubusercontent.com/52197131/221266606-f00b4ae2-396f-4fbe-8d88-a50cf35f0d6f.png)
+
 
 
 
